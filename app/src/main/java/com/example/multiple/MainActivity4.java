@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.lang.*;
 
 public class MainActivity4 extends AppCompatActivity {
-    private TextView sss;
+    private TextView gitt;
 
     
 
@@ -68,6 +68,6 @@ public class MainActivity4 extends AppCompatActivity {
         }
     }
     public void avnaa(View view) {
-        sss.setText("\n veerendar potlapalli");
+        gitt.setText("\n veerendar potlapalli");
     }
 }
