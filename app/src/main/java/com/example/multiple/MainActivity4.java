@@ -3,6 +3,7 @@ package com.example.multiple;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 import java.lang.*;
 
 public class MainActivity4 extends AppCompatActivity {
+    private TextView sss;
 
     
 
@@ -64,5 +66,8 @@ public class MainActivity4 extends AppCompatActivity {
 
             default: return super.onOptionsItemSelected(item);
         }
+    }
+    public void avnaa(View view) {
+        sss.setText("\n veerendar potlapalli");
     }
 }
