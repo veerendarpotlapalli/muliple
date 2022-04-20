@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:title="item0"
+       android:icon="@drawable/ic_search"
+       android:id="@+id/item0"
+       app:showAsAction="ifRoom">
+ </item>
+    <item android:title="item1"
+        android:id="@+id/item1"
+        app:showAsAction="never">
+    </item>
+    <item android:title="item2"
+        android:id="@+id/item2"
+        app:showAsAction="never">
+    </item>
+
+    <item android:title="item3"
+        android:id="@+id/item3"
+        app:showAsAction="never">
+        <menu>
+            <item android:title="subitem1"
+              android:id="@+id/subitem1"
+              app:showAsAction="never"/>
+            <item android:title="subitem2"
+                android:id="@+id/subitem2"
+                app:showAsAction="never"/>
+            <item android:title="subitem3"
+                android:id="@+id/subitem3"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
